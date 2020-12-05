@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.android.learneasybangla">
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="donut"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:fullBackupContent="true">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NumbersActivity"
+            android:label="@string/category_numbers" />
+        <activity
+            android:name=".FamilyActivity"
+            android:label="@string/category_family" />
+        <activity
+            android:name=".ColorsActivity"
+            android:label="@string/category_colors" />
+        <activity
+            android:name=".PhrasesActivity"
+            android:label="@string/category_phrases" />
+        <activity
+            android:name=".Greetings"
+            android:label="greetings" />
+        <activity
+            android:name=".AlphabetActivity"
+            android:label="alphabets" />
+
+        <activity
+            android:name=".DirectionPhrases"
+            android:label="direction_phrases" />
+        <activity
+            android:name=".DirectionWords"
+            android:label="direction_words" />
+        <activity
+            android:name=".Conversation"
+            android:label="conversation" />
+        <activity
+            android:name=".EatingOut"
+            android:label="eating_out" />
+        <activity
+            android:name=".TimeDate"
+            android:label="timedate"/>
+
+
+
+    </application>
+
+</manifest>
